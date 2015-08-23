@@ -37,6 +37,7 @@
                 }
               }
             };
+<<<<<<< HEAD
 		
 		bot.commands.pieCommand = {
 			command: 'pie',
@@ -51,6 +52,9 @@
 			  }
 			};
 
+=======
+            
+>>>>>>> origin/master
         // Load the chat package again to account for any changes
         bot.loadChat();
 
