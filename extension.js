@@ -38,7 +38,7 @@
               }
             };
 			
-		killCommand: {
+	killCommand: {
                 command: 'baconkill',
                 rank: 'bouncer',
                 type: 'exact',
