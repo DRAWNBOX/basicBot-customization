@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "DRAWNBOX";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -76,6 +76,7 @@
       autodisable: true,
       commandCooldown: 30,
       usercommandsEnabled: true,
+      skipPosition: 3,
       skipPosition: 3,
       skipReasons: [
       ["theme", "This song does not fit the room theme. "],
