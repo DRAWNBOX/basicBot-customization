@@ -125,7 +125,7 @@
       }
     }));
 
-    // Start the bot and extend it when it has loaded.
+    // Start the bot and extend it when it has loaded
     $.getScript("https://raw.githubusercontent.com/DRAWNBOX/basicBot/master/basicBot.js", extend);
 
 }).call(this);
