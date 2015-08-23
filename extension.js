@@ -37,26 +37,6 @@
                 }
               }
             };
-			
-		killCommand: {
-                command: 'baconkill',
-                rank: 'bouncer',
-                type: 'exact',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        storeToStorage();
-                        sendToSocket();
-                        API.sendChat(basicBot.chat.kill);
-                        basicBot.disconnectAPI();
-                        setTimeout(function () {
-                            kill();
-                        }, 1000);
-                    }
-                }
-            },
-
 
         // Load the chat package again to account for any changes
         bot.loadChat();
